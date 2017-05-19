@@ -1,0 +1,27 @@
+{
+  "name": "cli-tool-components-generator",
+  "version": "0.0.2",
+  "description": "Making a basic CLI tool with node to generate react components in pirate studios projects",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate": "./generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarotor/cli-tool-components-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarotor/cli-tool-components-generator/issues"
+  },
+  "homepage": "https://github.com/alvarotor/cli-tool-components-generator#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "rimraf": "^2.6.1"
+  }
+}
